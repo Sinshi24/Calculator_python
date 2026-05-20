@@ -1,3 +1,5 @@
+from tkinter import *
+
 def butt_click(num):
     current=display.get()
     display.delete(0, END)
