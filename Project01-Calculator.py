@@ -1,4 +1,9 @@
-from tkinter import *
+from tkinter import * 
+root = Tk()
+
+# ---------------- Display ----------------
+display=Entry(root)
+display.get()
 
 def butt_click(num):
     current=display.get()
