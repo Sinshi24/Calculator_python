@@ -5,6 +5,13 @@ root = Tk()
 display=Entry(root)
 display.get()
 
+for i in range(4):
+    root.columnconfigure(i, weight=1, uniform="col")
+
+for i in range(5):
+    root.rowconfigure(i, weight=1, uniform="row")
+
+
 def butt_click(num):
     current=display.get()
     display.delete(0, END)
